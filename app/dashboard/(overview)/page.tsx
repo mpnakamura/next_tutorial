@@ -2,6 +2,11 @@ import { Card } from '../../ui/cards';
 import RevenueChart from '../../ui/revenue-chart';
 import LatestInvoices from '../../ui/latest-invoices';
 import { lusitana } from '@/app/ui/fonts';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'dashboard',
+};
 
 
 import { fetchCardData } from '@/app/lib/data';
